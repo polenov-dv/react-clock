@@ -1,0 +1,16 @@
+.clock_hand {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: black;
+	transform-origin: bottom;
+	z-index: 10;
+}
+
+.clock_hand_minute {
+	width: 8px;
+	height: 39%;
+	background-color: black;
+}

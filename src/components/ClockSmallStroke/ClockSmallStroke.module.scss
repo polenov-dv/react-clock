@@ -1,0 +1,31 @@
+.clock_stroke {
+	margin-left: -0.5em;
+	margin-top: -0.5em;
+	font-size: inherit;
+	position: absolute;
+	display: block;
+	height: 2em;
+	width: 2em;
+	left: 25%;
+	top: 25%;
+}
+
+.clock_stroke::after {
+	content: "";
+	border-radius: 0 0 0.02em 0.02em;
+	background-color: #000;
+	margin-left: -0.01em;
+	position: absolute;
+	display: block;
+	height: 0.05em;
+	width: 0.02em;
+	top: 0.02em;
+	left: 50%;
+}
+
+.clock_stroke_small::after {
+	content: "";
+	border-radius: 0 0 0.0125em 0.0125em;
+	height: 0.025em;
+	width: 0.015em;
+}
